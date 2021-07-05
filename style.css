@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 4px;
     font-family: "Poppins", sans-serif;
 }
 .salmon {
@@ -67,7 +67,7 @@ h3 {
 }
 .box {
     width: 33%;
-    box-shadow: 3px 3px 30px rgb(73, 72, 72);
+    box-shadow: 2px 2px 20px rgb(219, 214, 214);
     margin: 10px 30px;
     border-radius: 25px;
     padding: 15px 20px;
@@ -79,6 +79,7 @@ h3 {
 }
 #recipe {
     padding: 0px 40px;
+    margin-bottom: 90px;
 }
 #recipe p {
     margin-top: 0;
@@ -96,4 +97,31 @@ h4 {
     border: 10px;
     border-radius: 20px;
     position: relative;
+}
+footer {
+    background-color: rgb(19, 18, 18);
+}
+#grey {
+    color: rgb(235, 223, 223);
+    margin: 0;
+}
+footer p {
+    padding-bottom: 50px;
+}
+#follower {
+    box-shadow: 2px 2px 20px rgb(219, 214, 214);
+}
+.follow-box {
+    border: 5px;
+    border-radius: 20px;
+    margin: 0 70px;
+    margin-bottom: 80px;
+}
+.width-div {
+    text-align: center;
+    width: 33%;
+    padding: 40px 50px;
+}
+h5 {
+    color: gray;
 }
