@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
-.orange {
+.salmon {
     color: salmon;
 }
 h1 {
@@ -32,7 +32,7 @@ img {
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(tomato, salmon);
+    background-image: linear-gradient(tomato, rgb(252, 150, 138));
     padding: 15px 25px;
     border-radius: 20px;
     color: white;
@@ -40,9 +40,17 @@ img {
 }
 #order-food {
     background-image: url("images/intro-bg.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
 }
-#about-us {
+#about-me {
     background-image: url("shapes/Frame\ 58.jpg");
+    background-size: 100%;
+}
+h2 {
+    font-size: 40px;
+    color: rgb(216, 63, 93);
+}
+.my-info {
+    margin-top: 100px;
+    margin-left: 150px;
 }
