@@ -1,3 +1,41 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+.orange {
+    color: salmon;
+}
+h1 {
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(71, 73, 69);
+}
+p {
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgb(134, 136, 133);
+}
+.flexible {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+}
+img {
+    padding-top: 60px;
+    width: 80%;
+}
+.intro {
+    padding: 150px 60px;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, salmon);
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 40px salmon;
+}
+#order-food {
+    margin-bottom: 50px;
+}
