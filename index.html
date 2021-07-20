@@ -5,119 +5,138 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Food-Hut</title>
+        <!-- fav-icon -->
         <link
             rel="shortcut icon"
             href="images/favicon.png"
             type="image/x-icon"
         />
+        <!-- stylesheets -->
         <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-            rel="stylesheet"
-        />
     </head>
     <body>
-        <section class="flexible" id="order-food">
-            <div class="intro half-width">
-                <h1>Welcome To <span class="salmon">Food-Hut</span></h1>
-                <h1>Stay Healthy & Stay Hungry!</h1>
-                <p>
-                    We are ready to deliver you some healthy food! Stay with us,
-                    Thanks!
-                </p>
-                <a target="_blank" class="button" href="https://www.linkedin.com/in/suresh-paul-pranta-892a04205/">Order Now</a>
-            </div>
-            <div class="half-width">
-                <img src="images/Group 8425.png" alt="" />
-            </div>
-        </section>
-        <section class="flexible" id="about-me">
-            <div class="half-width">
-                <img src="images/my-photo.png" alt="" />
-            </div>
-            <div class="my-info half-width">
-                <h2>About Me</h2>
-                <p>
-                    Hello! I am the Founder & CEO of this Company. Hope you have
-                    already ordered healthy food from our site. Thanks for
-                    visiting our site. Stay healthy & Stay happy!
-                </p>
-                <a
-                    target="_blank"
-                    class="button"
-                    href="https://www.linkedin.com/in/suresh-paul-pranta-892a04205/"
-                    >Contact Me</a
-                >
-            </div>
-        </section>
-        <section>
-            <div class="center">
-                <h3>Recipe Blog</h3>
-                <p>
-                    Hey, are you loking for our recipes? Here are some Amazing
-                    Recipes for you!
-                </p>
-            </div>
-            <div class="flexible" id="recipe">
-                <div class="box">
-                    <img
-                        class="round-img"
-                        src="food/Project Cover5.png"
-                        alt=""
-                    />
-                    <h4>Salad</h4>
-                    <p>
-                        This is a special salad with fresh vegetables from our
-                        garden! Salad is good for our health. You can make it
-                        within five minutes. It's very easy to prepare.
-                    </p>
+        <header></header>
+        <main>
+            <!-- Hero-section -->
+            <section class="hero-section">
+                <div class="container" id="order-food">
+                    <div class="hero-intro">
+                        <h1>Welcome To <span class="salmon">Food-Hut</span></h1>
+                        <h1>Stay Healthy & Stay Hungry!</h1>
+                        <p>
+                            We are ready to deliver you some healthy food! Stay
+                            with us, Thanks!
+                        </p>
+                        <a
+                            target="_blank"
+                            class="button"
+                            href="https://www.linkedin.com/in/suresh-paul-pranta-892a04205/"
+                            >Order Now</a
+                        >
+                    </div>
+                    <div class="hero-img">
+                        <img src="images/Group 8425.png" alt="" />
+                    </div>
                 </div>
-                <div class="box">
-                    <img
-                        class="round-img"
-                        src="food/Project Cover.png"
-                        alt=""
-                    />
-                    <h4>Soup</h4>
-                    <p>
-                        This soup is very yummy. You have to take some chiken
-                        broth then put some lemongrass and any kind of meat you
-                        want!
-                    </p>
+            </section>
+            <!-- about-me section -->
+            <section id="about-me">
+                <div class="container profile">
+                    <div class="my-img">
+                        <img src="images/my-photo.png" alt="" />
+                    </div>
+                    <div class="my-info">
+                        <h2>About Me</h2>
+                        <p>
+                            Hello! I am the Founder & CEO of this Company. Hope
+                            you have already ordered healthy food from our site.
+                            Thanks for visiting our site. Stay healthy & Stay
+                            happy!
+                        </p>
+                        <a
+                            target="_blank"
+                            class="button"
+                            href="https://www.linkedin.com/in/suresh-paul-pranta-892a04205/"
+                            >Contact Me</a
+                        >
+                    </div>
                 </div>
-                <div class="box">
-                    <img
-                        class="round-img"
-                        src="food/Project Cover7.png"
-                        alt=""
-                    />
-                    <h4>Pasta</h4>
-                    <p>
-                        For making pasta you have to boil it first. Then cook it
-                        with any kind of vegetables and meat!
-                    </p>
+            </section>
+            <!-- Recipe-section -->
+            <section class="recipe-section">
+                <div class="container">
+                    <div class="section-title">
+                        <h3>Recipe Blog</h3>
+                        <p>
+                            Hey, are you loking for our recipes? Here are some
+                            Amazing Recipes for you!
+                        </p>
+                    </div>
+                    <div id="recipes">
+                        <div class="recipe-item">
+                            <div class="item-img">
+                                <img src="food/Project Cover5.png" alt="" />
+                            </div>
+                            <div class="item-intro">
+                                <h4>Salad</h4>
+                                <p>
+                                    This is a special salad with fresh
+                                    vegetables from our garden! Salad is good
+                                    for our health. You can make it within five
+                                    minutes. It's very easy to prepare.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="recipe-item">
+                            <div class="item-img">
+                                <img src="food/Project Cover.png" alt="" />
+                            </div>
+                            <div class="item-intro">
+                                <h4>Soup</h4>
+                                <p>
+                                    This soup is very yummy. You have to take
+                                    some chiken broth then put some lemongrass
+                                    and any kind of meat you want!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="recipe-item">
+                            <div class="item-img">
+                                <img
+                                    class="round-img"
+                                    src="food/Project Cover7.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="item-intro">
+                                <h4>Pasta</h4>
+                                <p>
+                                    For making pasta you have to boil it first.
+                                    Then cook it with any kind of vegetables and
+                                    meat!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="flexible follow-box" id="follower">
-            <div class="width-div">
-                <h1>700K</h1>
-                <h5>Youtube Subscribers</h5>
-            </div>
-            <div class="width-div">
-                <h1>3.5m</h1>
-                <h5>Instagram Followers</h5>
-            </div>
-            <div class="width-div">
-                <h1>100k</h1>
-                <h5>Facebook Followers</h5>
-            </div>
-        </section>
-        <footer class="center">
-            <h3><span class="salmon"">FOOD</span> HUT</h3>
-            <p id="grey">Stay Healthy & Stay Hungry</p>
-        </footer>
+            </section>
+            <!-- follower-section -->
+            <section class="follower-section">
+                <div class="container followers">
+                    <div>
+                        <h1>700K</h1>
+                        <h5>Youtube Subscribers</h5>
+                    </div>
+                    <div>
+                        <h1>3.5m</h1>
+                        <h5>Instagram Followers</h5>
+                    </div>
+                    <div>
+                        <h1>100k</h1>
+                        <h5>Facebook Followers</h5>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
