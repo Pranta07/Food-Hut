@@ -122,7 +122,7 @@ body {
     align-items: center;
     border-radius: 20px;
     box-shadow: 2px 2px 20px rgb(219, 214, 214);
-    margin: 30px 200px;
+    margin: 30px auto;
     padding: 50px 0;
 }
 
@@ -131,8 +131,10 @@ h5 {
 }
 /* footer-section */
 footer {
-    background-color: rgb(19, 18, 18);
+    text-align: center;
+    background-color: rgb(117, 114, 114);
+    padding-top: 50px;
 }
-footer p {
-    padding-bottom: 50px;
+.copyright {
+    padding-top: 20px;
 }
